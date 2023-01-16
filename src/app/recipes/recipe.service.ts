@@ -10,12 +10,14 @@ export class RecipeService {
     new Recipe(
       'Pizza',
       'This is an italian pizza',
-      'https://images.unsplash.com/photo-1490717064594-3bd2c4081693?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
+      'https://images.unsplash.com/photo-1490717064594-3bd2c4081693?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+      [new Ingredient('farina', 230), new Ingredient('pomodoro', 2)]
     ),
     new Recipe(
       'Pizza 2',
       'This is an italian pizza 2',
-      'https://images.unsplash.com/photo-1490717064594-3bd2c4081693?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'
+      'https://images.unsplash.com/photo-1490717064594-3bd2c4081693?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+      [new Ingredient('farina', 330), new Ingredient('pomodoro', 11)]
     ),
   ];
 
