@@ -1,0 +1,13 @@
+.gap {
+  margin-top: 10px;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 2px solid #ff7d58;
+}
+
+.img-preview {
+  height: 200;
+  width: auto;
+}
