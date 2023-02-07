@@ -12,7 +12,7 @@ import { AuthComponent } from './auth.component';
     FormsModule,
     RouterModule.forChild([
       {
-        path: 'signup',
+        path: '',
         component: AuthComponent,
       },
     ]),
